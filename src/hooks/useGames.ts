@@ -5,7 +5,7 @@ import { Genre } from "./useGenre";
 import { Platform } from "./usePlatforms";
 import { GameQuery } from "../App";
 
-interface platform {
+export interface platform {
   id: number;
   slug: string;
   name: string;
